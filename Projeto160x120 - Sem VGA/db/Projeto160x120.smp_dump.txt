@@ -1,0 +1,15 @@
+
+State Machine - |top_geral|ov7670_top:top_comp|Top_AchandoPonto:AchandoPonto|WrenSync:Sync_Escrita|actualState
+Name actualState.EsperaDesativar actualState.SaidaAtiva actualState.EsperaAtivar 
+actualState.EsperaAtivar 0 0 0 
+actualState.SaidaAtiva 0 1 1 
+actualState.EsperaDesativar 1 0 1 
+
+State Machine - |top_geral|ov7670_top:top_comp|Top_AchandoPonto:AchandoPonto|FSM_AchandoPonto:FSM|actualState
+Name actualState.DesenhandoQuadrado actualState.QualquerPreto actualState.PrimeiroPreto actualState.Branco actualState.Controle actualState.Inicio 
+actualState.Inicio 0 0 0 0 0 0 
+actualState.Controle 0 0 0 0 1 1 
+actualState.Branco 0 0 0 1 0 1 
+actualState.PrimeiroPreto 0 0 1 0 0 1 
+actualState.QualquerPreto 0 1 0 0 0 1 
+actualState.DesenhandoQuadrado 1 0 0 0 0 1 

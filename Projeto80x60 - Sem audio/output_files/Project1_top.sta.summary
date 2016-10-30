@@ -1,0 +1,453 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'xclk'
+Slack : -120.500
+TNS   : -12561.140
+
+Type  : Slow 1100mV 85C Model Setup 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -115.585
+TNS   : -14701.754
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -11.113
+TNS   : -1375.066
+
+Type  : Slow 1100mV 85C Model Setup 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : -4.927
+TNS   : -9.617
+
+Type  : Slow 1100mV 85C Model Setup 'OV7670_PCLK'
+Slack : -4.861
+TNS   : -1307.069
+
+Type  : Slow 1100mV 85C Model Setup 'AUDIO_DAC:u5|LRCK_1X'
+Slack : -4.799
+TNS   : -211.280
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[0]'
+Slack : -2.998
+TNS   : -108.961
+
+Type  : Slow 1100mV 85C Model Setup 'AUDIO_DAC:u5|o'
+Slack : -2.976
+TNS   : -14.649
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -1.019
+TNS   : -1.019
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[0]'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'AUDIO_DAC:u5|LRCK_1X'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'OV7670_PCLK'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.560
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'xclk'
+Slack : 0.629
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'AUDIO_DAC:u5|o'
+Slack : 0.652
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : 2.047
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -4.110
+TNS   : -458.026
+
+Type  : Slow 1100mV 85C Model Removal 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : 2.305
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'OV7670_PCLK'
+Slack : -3.166
+TNS   : -1865.611
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.166
+TNS   : -1034.638
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'xclk'
+Slack : -3.166
+TNS   : -414.652
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -0.724
+TNS   : -160.753
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.724
+TNS   : -61.539
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'AUDIO_DAC:u5|LRCK_1X'
+Slack : -0.724
+TNS   : -55.061
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'AUDIO_DAC:u5|o'
+Slack : -0.724
+TNS   : -6.690
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'altpll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.633
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.483
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : 27.012
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'xclk'
+Slack : -127.405
+TNS   : -13092.236
+
+Type  : Slow 1100mV 0C Model Setup 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -122.127
+TNS   : -15531.097
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -10.669
+TNS   : -1269.577
+
+Type  : Slow 1100mV 0C Model Setup 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : -4.655
+TNS   : -9.125
+
+Type  : Slow 1100mV 0C Model Setup 'OV7670_PCLK'
+Slack : -4.623
+TNS   : -1226.210
+
+Type  : Slow 1100mV 0C Model Setup 'AUDIO_DAC:u5|LRCK_1X'
+Slack : -4.574
+TNS   : -201.347
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[0]'
+Slack : -3.055
+TNS   : -111.596
+
+Type  : Slow 1100mV 0C Model Setup 'AUDIO_DAC:u5|o'
+Slack : -2.906
+TNS   : -14.158
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -1.137
+TNS   : -1.311
+
+Type  : Slow 1100mV 0C Model Hold 'OV7670_PCLK'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[0]'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'AUDIO_DAC:u5|LRCK_1X'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.478
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'xclk'
+Slack : 0.692
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'AUDIO_DAC:u5|o'
+Slack : 0.771
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : 1.931
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -4.305
+TNS   : -481.197
+
+Type  : Slow 1100mV 0C Model Removal 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : 2.541
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'OV7670_PCLK'
+Slack : -3.166
+TNS   : -1867.943
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.166
+TNS   : -1035.654
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'xclk'
+Slack : -3.166
+TNS   : -405.410
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -0.748
+TNS   : -163.363
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.724
+TNS   : -62.822
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'AUDIO_DAC:u5|LRCK_1X'
+Slack : -0.724
+TNS   : -50.841
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'AUDIO_DAC:u5|o'
+Slack : -0.724
+TNS   : -6.649
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'altpll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.633
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.451
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : 26.923
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'xclk'
+Slack : -47.004
+TNS   : -5117.949
+
+Type  : Fast 1100mV 85C Model Setup 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -45.292
+TNS   : -5754.069
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.794
+TNS   : -592.516
+
+Type  : Fast 1100mV 85C Model Setup 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : -3.029
+TNS   : -5.993
+
+Type  : Fast 1100mV 85C Model Setup 'OV7670_PCLK'
+Slack : -2.007
+TNS   : -452.645
+
+Type  : Fast 1100mV 85C Model Setup 'AUDIO_DAC:u5|LRCK_1X'
+Slack : -1.435
+TNS   : -61.884
+
+Type  : Fast 1100mV 85C Model Setup 'AUDIO_DAC:u5|o'
+Slack : -0.844
+TNS   : -3.461
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[0]'
+Slack : -0.629
+TNS   : -12.135
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.791
+TNS   : -1.020
+
+Type  : Fast 1100mV 85C Model Hold 'AUDIO_DAC:u5|LRCK_1X'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'OV7670_PCLK'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'xclk'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[0]'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'AUDIO_DAC:u5|o'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : 0.601
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -1.568
+TNS   : -158.731
+
+Type  : Fast 1100mV 85C Model Removal 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : 0.731
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'OV7670_PCLK'
+Slack : -2.174
+TNS   : -1154.733
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -603.458
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'xclk'
+Slack : -2.174
+TNS   : -51.103
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -0.212
+TNS   : -12.388
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.055
+TNS   : -2.431
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'AUDIO_DAC:u5|o'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'AUDIO_DAC:u5|LRCK_1X'
+Slack : 0.116
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'altpll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.633
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.162
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : 27.329
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'xclk'
+Slack : -44.535
+TNS   : -4763.172
+
+Type  : Fast 1100mV 0C Model Setup 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -43.036
+TNS   : -5468.504
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.111
+TNS   : -472.794
+
+Type  : Fast 1100mV 0C Model Setup 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : -2.583
+TNS   : -5.099
+
+Type  : Fast 1100mV 0C Model Setup 'OV7670_PCLK'
+Slack : -1.646
+TNS   : -345.594
+
+Type  : Fast 1100mV 0C Model Setup 'AUDIO_DAC:u5|LRCK_1X'
+Slack : -1.239
+TNS   : -53.232
+
+Type  : Fast 1100mV 0C Model Setup 'AUDIO_DAC:u5|o'
+Slack : -0.706
+TNS   : -2.810
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[0]'
+Slack : -0.521
+TNS   : -9.896
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.841
+TNS   : -3.017
+
+Type  : Fast 1100mV 0C Model Hold 'AUDIO_DAC:u5|LRCK_1X'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'OV7670_PCLK'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'xclk'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[0]'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'AUDIO_DAC:u5|o'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : 0.546
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -1.465
+TNS   : -149.900
+
+Type  : Fast 1100mV 0C Model Removal 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : 0.748
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'OV7670_PCLK'
+Slack : -2.174
+TNS   : -1155.204
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -604.260
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'xclk'
+Slack : -2.174
+TNS   : -38.669
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Top_AchandoPonto:achandoPonto|FSM_AchandoPonto:FSM|actualState.QualquerPreto'
+Slack : -0.137
+TNS   : -6.335
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.071
+TNS   : -3.206
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'AUDIO_DAC:u5|o'
+Slack : 0.103
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'AUDIO_DAC:u5|LRCK_1X'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'altpll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.633
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.151
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'altpll|altpll_component|auto_generated|generic_pll2~PLL_OUTPUT_COUNTER|divclk'
+Slack : 27.322
+TNS   : 0.000
+
+------------------------------------------------------------

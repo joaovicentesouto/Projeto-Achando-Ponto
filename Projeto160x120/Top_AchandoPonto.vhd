@@ -6,12 +6,17 @@ use ieee.numeric_std.all;
 -- Projeto SD : Reconhecimento de um ponto
 
 entity Top_AchandoPonto is
+  generic (
+    data_width : positive := 8;
+    address_width : positive := 15;
+  );
   port (
     wren, CLOCK_50 : in std_logic;
     reset : in Std_logic;
-    wrAddress, rdAddress: in std_logic_vector(14 downto 0); -- wr = write / rd = read
-    data_capture, data_ram : in std_logic_vector(7 downto 0);
-    data_out : out std_logic_vector(7 downto 0)
+    wrAddress, rdAddress: in std_logic_vector(address_width-1 downto 0); -- wr = write / rd = read
+    data_capture, data_ram : in std_logic_vector(data_width-1 downto 0);
+    data_out : out std_logic_vector(7 downto 0);
+	 centroX1, centroX2, centroY1, centroY2 : out std_logic_vector(6 downto 0)
   );
 end entity;
 
@@ -69,6 +74,15 @@ architecture behav of Top_AchandoPonto is
       data_vga : out std_logic_vector(7 downto 0)
     );
   end component;
+
+  -- Coordenadas do ponto
+  component centroPonto is
+	port (
+		ativa : in std_logic;
+		menorI, menorJ, maiorI, maiorJ : in integer;
+		centroX1, centroX2, centroY1, centroY2 : out std_logic_vector(6 downto 0)
+	);
+	end component;
 
   signal verifica_ij, inicio_ij, contaPretosNoPonto, ativaQuadrado : std_logic;
   signal estadoInicio, estadoPrimeiroPreto, achouPrimeiroPreto, wren_out : std_logic;
@@ -144,5 +158,17 @@ architecture behav of Top_AchandoPonto is
       maiorJ => maiorJ,
       data_vga => data_out
     );
+
+	 Coordenadas: centroPonto port map (
+		ativa => ativaQuadrado,
+		menorI => menorI,
+		menorJ => menorJ,
+		maiorI => maiorI,
+		maiorJ => maiorJ,
+		centroX1 => centroX1,
+		centroX2 => centroX2,
+		centroY1 => centroY1,
+		centroY2 => centroY2
+	);
 
 end architecture;

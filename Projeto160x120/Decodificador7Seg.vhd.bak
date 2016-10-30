@@ -1,0 +1,46 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+
+entity Decodificador7Seg is
+port (
+		Entrada: in std_logic_vector(4 downto 0);
+		Saida: out std_logic_vector(6 downto 0));
+end Decodificador7Seg;
+
+architecture behavior of Decodificador7Seg is
+begin
+	-- Convertendo as saídas dos registradores e agenda de cinco bits um formato de sete bits correspondente aos dígitos que
+	-- devem aparecer nos Hex's.
+	Saida <= "1000000" when Entrada = "00000" else
+				"1111001" when Entrada = "00001" else
+				"0100100" when Entrada = "00010" else
+				"0110000" when Entrada = "00011" else
+				"0011001" when Entrada = "00100" else
+				"0010010" when Entrada = "00101" else
+				"0000010" when Entrada = "00110" else
+				"1111000" when Entrada = "00111" else
+				"0000000" when Entrada = "01000" else
+				"0011000" when Entrada = "01001" else
+				"0001000" when Entrada = "01010" else
+				"0000011" when Entrada = "01011" else
+				"1000110" when Entrada = "01100" else
+				"0100001" when Entrada = "01101" else
+				"0000110" when Entrada = "01110" else
+				"0001110" when Entrada = "01111" else
+				"0010000" when Entrada = "10000" else
+				"0001001" when Entrada = "10001" else
+				"1001111" when Entrada = "10010" else
+				"1100001" when Entrada = "10011" else
+				"0000101" when Entrada = "10100" else
+				"1000111" when Entrada = "10101" else
+				"0101011" when Entrada = "10110" else
+				"1001000" when Entrada = "10111" else
+				"0001100" when Entrada = "11000" else
+				"0101111" when Entrada = "11001" else
+				"0000111" when Entrada = "11010" else
+				"1000001" when Entrada = "11011" else
+				"1100011" when Entrada = "11100" else
+				"0011101" when Entrada = "11101" else
+				"0010001" when Entrada = "11110" else
+				"1111111";
+end behavior;

@@ -27,8 +27,9 @@ entity ov7670_top is
       vga_hsync    : out   STD_LOGIC;
       vga_vsync    : out   STD_LOGIC;
 
-      btn          : in    STD_LOGIC;
-		key			 : in STD_LOGIC_VECTOR(2 downto 0)
+      btn          : in    STD_LOGIC_vector(1 downto 0);
+		
+		centroX1, centroX2, centroY1, centroY2  : out std_LOGIC_vector(6 downto 0) 
     );
 end ov7670_top;
 
@@ -101,7 +102,8 @@ architecture Behavioral of ov7670_top is
        reset : in Std_logic;
        wrAddress, rdAddress: in std_logic_vector(14 downto 0); -- wr = write / rd = read
        data_capture, data_ram : in std_logic_vector(7 downto 0);
-       data_out : out std_logic_vector(7 downto 0)
+       data_out : out std_logic_vector(7 downto 0);
+		 centroX1, centroX2, centroY1, centroY2 : out std_logic_vector(6 downto 0)
      );
    end component;
 
@@ -122,7 +124,7 @@ begin
 btn_debounce: debounce
   PORT MAP(
       clk => clk50,
-      i   => btn,
+      i   => btn(1),
       o   => resend
    );
 
@@ -177,12 +179,16 @@ controller: ov7670_controller
      port map (
        wren => capture_we,
        CLOCK_50 => clk50,
-       reset => key(0),
+       reset => btn(0),
        wrAddress => capture_addr,
        rdAddress => frame_addr,
        data_capture => capture_data,
        data_ram => ram_data,
-       data_out => frame_pixel
+       data_out => frame_pixel,
+		 centroX1 => centroX1,
+		 centroX2 => centroX2,
+		 centroY1 => centroY1,
+		 centroY2 => centroY2
      );
 
 end Behavioral;
