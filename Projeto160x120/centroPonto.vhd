@@ -24,8 +24,9 @@ signal x1, x2, y1, y2 : std_logic_vector(3 downto 0) := "1111";
 
 begin
 
-	centroX <= ((maiorI - menorI)*100)/155; --??????????
-	centroY <= ((maiorI - menorI)*100)/155;
+	-- se for 160x120 então eu converto eles pela "regra do 3" para ser de 0 á 99
+	centroX <= ((maiorI - menorI)*99)/155;
+	centroY <= ((maiorI - menorI)*99)/119;
 
 	unidX <= centroX rem 10;
 	dezX <= (centroX-(centroX rem 10))/10;
@@ -63,6 +64,5 @@ begin
 		Entrada => y2,
 		Saida => centroY2
 	);
-
 
 end architecture;
